@@ -157,7 +157,9 @@
 h1 {
     font-weight: bold !important;
 }
-
+.col-sm-6{
+    text-align: start;
+}
 .btn2 {
     width: 200px;
     padding: 15px 0 !important;
@@ -170,15 +172,30 @@ h1 {
     color: #fff !important;
     border-radius: 30px !important;
 }
+.h1{
+    padding-top: 20px;
+}
+.h4{
+    text-align: center;
+}
+.Discount{
+    text-align: left;
+    padding-left: 15px;
+}
 
 .slide3 {
     background-color: #232427;
+    height: 400px;
+    text-align: center;
 }
-
+.third-slide{
+    padding: 30px;
+}
 h2 {
     text-align: center;
     padding-top: 100px;
     font-size: large;
+    padding-bottom: 30px;
 }
 
 .pd-left-25 {
@@ -257,7 +274,7 @@ h4{
     padding-top: 35px;
 }
 .edit-6{
-    text-align: center;
+    text-align:center;
     
 }
 .leaf-left{
@@ -265,12 +282,23 @@ h4{
     bottom: -60px;
     left: 0;
 }
+.form-control{
+    
+}
 .leaf-right{
     position: absolute;
     top: -60px;
     right: 0;
 }
-.mb-3{
-    width: 50vw !important;
+.input-div input {
+    margin: auto;
+}
+.last-1{
     text-align: center;
+}
+.btn-link  {
+color: gray !important;
+}
+.btn-link:hover {
+    color: #33f216 !important;
 }
