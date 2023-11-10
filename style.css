@@ -4,6 +4,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+.main-logo {
+    width: 40%;
+    height: auto;
+}
+
 .color-white {
     color: white;
 }
@@ -14,7 +19,7 @@
 
 .banner1 {
     width: 100%;
-    max-height: 90vh;
+    height: 115vh;
     background-image: url(assets/general-background-dark-wood.jpg);
     background-position: center;
     background-size: cover;
@@ -30,6 +35,7 @@
     justify-content: space-around;
     position: absolute;
     right: 2vw;
+    z-index: 2;
 }
 
 .navbar1 ul {
@@ -43,12 +49,11 @@
     position: relative;
 }
 
-.navbar1 ul li a {
+.navbar1>ul>li>a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-
-
+    cursor: pointer;
 }
 
 .navbar1 ul li::after {
@@ -107,14 +112,17 @@
     padding-left: 60px !important;
 }
 
-.B {
-    padding-top: 150px;
-    padding-right: 60px !important;
+.B img{
+    width: 48vw;
+    position: absolute;
+    right: 0px;
+    height: 116vh;
+    top: 50px;
 }
 
 .title {
     font-size: 64px;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .main-logo {
@@ -173,7 +181,7 @@ h2 {
     font-size: large;
 }
 
-h5 {
+.pd-left-25 {
     padding-left: 25%;
 }
 
@@ -195,15 +203,74 @@ h6 {
 
 .slide5 {
     width: 100%;
-    max-height: 110vh;
+    max-height: 200vh;
     background-image: url(assets/general-background-dark-wood.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-h8 {
+h6 {
     color: #fff;
     font-size: 40px;
     font-weight: 400;
+}
+
+.fix-image-size {
+    height: 400px;
+    width: auto;
+}
+
+.larger-image-size {
+    height: 600px;
+    width: auto;
+}
+
+.subtitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+.fix-image2-size{
+    height: 900px;
+    width: auto;
+}
+.slide6{
+    margin-top: 70px;
+}
+.slide7{
+    background-color: #232427;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+}
+.slide8{
+    height: 600px;
+}
+.extra-padding{
+    padding: 24px;
+}
+h4{
+    text-align: left;
+    padding: 35px;
+}
+.h1-edit{
+    padding-top: 35px;
+}
+.edit-6{
+    text-align: center;
+    
+}
+.leaf-left{
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+}
+.leaf-right{
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+.mb-3{
+    width: 50vw !important;
+    text-align: center;
 }
